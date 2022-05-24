@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    width: 100%;
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url(background1.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 109vh;
+}
+
+.navbar{
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+}
+
+.icon{
+    width: 200px;
+    float: left;
+    height: 70px;
+}
+
+.logo{
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    font-family: Broadway;
+    padding-left: 20px;
+    float: left;
+    padding-top: 20px;
+}
+
+.content{
+    text-align: center;
+}
+
+.content h1{
+    font-size: 100px;
+    color: aliceblue;
+    font-weight: 400;
+    margin-top: 100px;
+}
+
+.content h2{
+    color: aliceblue;
+}
+
+.content a{
+    text-decoration: none;
+    display: inline-block;
+    color: aliceblue;
+    font-size: 24px;
+    border: 2px solid aliceblue;
+    padding: 14px 70px;
+    border-radius: 50px;
+    margin-top: 20px;
+}
