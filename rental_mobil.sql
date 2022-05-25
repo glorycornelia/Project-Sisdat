@@ -166,7 +166,7 @@ ALTER TABLE `transaksi`
 ALTER TABLE `transaksi`
   ADD CONSTRAINT `transaksi_ibfk_1` FOREIGN KEY (`ID_Mobil`) REFERENCES `mobil` (`ID_Mobil`),
   ADD CONSTRAINT `transaksi_ibfk_2` FOREIGN KEY (`ID_Pelanggan`) REFERENCES `pelanggan` (`ID_pelanggan`),
-  ADD CONSTRAINT `transaksi_ibfk_3` FOREIGN KEY (`Tipe_Harga`) REFERENCES `harga` (`Tipe_Harga`);
+  ADD CONSTRAINT `transaksi_ibfk_3` Foreign KEY (`Tipe_Harga`) REFERENCES `harga` (`Tipe_Harga`);
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
